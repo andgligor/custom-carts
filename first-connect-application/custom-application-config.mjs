@@ -4,8 +4,8 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
  */
 const config = {
-  name: 'Test Agl App',
-  entryPointUriPath: "test-agl-app",
+  name: 'Carts App',
+  entryPointUriPath: "carts-app",
   cloudIdentifier: '${env:CLOUD_IDENTIFIER}',
   env: {
     development: {
